@@ -6,7 +6,7 @@ Helm chart to host [zeebe-gopro](https://github.com/livspaceeng/zeebe-gopro) on 
   + [zeebe-gopro helm repo](https://github.com/livspaceeng/zeebe-gopro-helm)
   + [helm-chart repo](https://github.com/livspaceeng/helm-charts)
 - Make any required changes to [zeebe-gopro-helm](https://github.com/livspaceeng/zeebe-gopro-helm) repo.
-- Update the **appVersion** in [Chart.yaml](./zeebe-gopro/Chart.yaml) to point to the current [zeebe-gopro version](https://github.com/livspaceeng/zeebe-gopro/blob/master/pom.xml) (*Just to be aware of the current version being used*).
+- Update the **appVersion** in [Chart.yaml](./zeebe-gopro/Chart.yaml) to point to the current [zeebe-gopro version](https://github.com/livspaceeng/zeebe-gopro/releases) (*Just to be aware of the current version being used*).
 - Upgrade the **version** in [Chart.yaml](./zeebe-gopro/Chart.yaml), and push to this repo.
 - Run the below commands from terminal (*inside ~/helm-charts directory*):
   + `> helm package ../zeebe-gopro-helm/zeebe-gopro`
