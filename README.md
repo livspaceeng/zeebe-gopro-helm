@@ -1,2 +1,2 @@
 # zeebe-gopro-helm
-Helm chart to host zeebe-gopro on Kubernetes cluster
+Helm chart to host [zeebe-gopro](https://github.com/livspaceeng/zeebe-gopro) on Kubernetes cluster
